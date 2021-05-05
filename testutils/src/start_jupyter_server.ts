@@ -185,7 +185,7 @@ namespace Private {
         theme: {
           type: 'string',
           title: 'Selected Theme',
-          default: 'JupyterLab Light'
+          default: 'Northern Data Theme'
         }
       },
       type: 'object'

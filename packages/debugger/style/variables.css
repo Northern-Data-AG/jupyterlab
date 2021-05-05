@@ -77,7 +77,7 @@
 }
 
 .jp-DebuggerVariables-colorPalette .jp-mod-selection {
-  /* TODO: Fix JupyterLab light theme (alpha) so this can be a variable. */
+  /* TODO: Fix Northern Data Theme theme (alpha) so this can be a variable. */
   color: rgba(3, 169, 244, 0.2);
 }
 

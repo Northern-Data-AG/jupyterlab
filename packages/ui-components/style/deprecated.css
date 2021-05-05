@@ -46,8 +46,11 @@
   --jp-icon-inspector: url('icons/filetype/inspector.svg');
   --jp-icon-json: url('icons/filetype/json.svg');
   --jp-icon-jupyter-favicon: url('icons/jupyter/jupyter-favicon.svg');
+  --jp-icon-jupyter-white-moons: url('icons/jupyter/jupyter-white-moons.svg');
   --jp-icon-jupyter: url('icons/jupyter/jupyter.svg');
+  --jp-icon-jupyterlab-wordmark-inverse: url('icons/jupyter/jupyterlab-wordmark-inverse.svg');
   --jp-icon-jupyterlab-wordmark: url('icons/jupyter/jupyterlab-wordmark.svg');
+  --jp-icon-jupyterlab: url('icons/jupyter/jupyterlab.svg');
   --jp-icon-kernel: url('icons/statusbar/kernel.svg');
   --jp-icon-keyboard: url('icons/filetype/keyboard.svg');
   --jp-icon-launcher: url('icons/filetype/launcher.svg');
@@ -197,8 +200,17 @@
 .jp-JupyterIcon {
   background-image: var(--jp-icon-jupyter);
 }
+.jp-JupyterWhiteMoonsIcon {
+  background-image: var(--jp-icon-jupyter-white-moons);
+}
+.jp-JupyterlabIcon {
+  background-image: var(--jp-icon-jupyterlab);
+}
 .jp-JupyterlabWordmarkIcon {
   background-image: var(--jp-icon-jupyterlab-wordmark);
+}
+.jp-JupyterlabWordmarkInverseIcon {
+  background-image: var(--jp-icon-jupyterlab-wordmark-inverse);
 }
 .jp-KernelIcon {
   background-image: var(--jp-icon-kernel);

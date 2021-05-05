@@ -176,7 +176,7 @@ A theme is a special application plugin that registers a theme with the ``ThemeM
 
 The extension package containing the theme plugin must include all static assets that are referenced by ``@import`` in its theme CSS files. Local URLs can be used to reference files relative to the location of the referring sibling CSS files. For example ``url('images/foo.png')`` or ``url('../foo/bar.css')`` can be used to refer local files in the theme. Absolute URLs (starting with a ``/``) or external URLs (e.g. ``https:``) can be used to refer to external assets.
 
-See the `JupyterLab Light Theme <https://github.com/jupyterlab/jupyterlab/tree/master/packages/theme-light-extension>`__ for an example.
+See the `Northern Data Theme Theme <https://github.com/jupyterlab/jupyterlab/tree/master/packages/theme-light-extension>`__ for an example.
 
 See the `TypeScript theme cookiecutter <https://github.com/jupyterlab/theme-cookiecutter>`__ for a quick start to developing a theme plugin.
 

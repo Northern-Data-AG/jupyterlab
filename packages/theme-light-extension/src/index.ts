@@ -28,9 +28,9 @@ const plugin: JupyterFrontEndPlugin<void> = {
     const trans = translator.load('jupyterlab');
     const style = '@jupyterlab/theme-light-extension/index.css';
     manager.register({
-      name: 'JupyterLab Light',
-      displayName: trans.__('JupyterLab Light'),
-      isLight: true,
+      name: 'Northern Data Theme',
+      displayName: trans.__('Northern Data Theme'),
+      isLight: false,
       themeScrollbars: false,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)

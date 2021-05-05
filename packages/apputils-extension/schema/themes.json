@@ -44,7 +44,7 @@
       "type": "string",
       "title": "Selected Theme",
       "description": "Application-level visual styling theme",
-      "default": "JupyterLab Light"
+      "default": "Northern Data Theme"
     },
     "theme-scrollbars": {
       "type": "boolean",
