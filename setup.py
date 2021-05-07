@@ -28,7 +28,8 @@ def post_dist():
     target = pjoin(HERE, NAME, 'static', 'package.json')
     with open(target) as fid:
         version = json.load(fid)['jupyterlab']['version']
-
+    print(Version(version))
+    print(Version(get_version(f'{NAME}/_version.py')))
     if Version(version) != Version(get_version(f'{NAME}/_version.py')):
         raise ValueError('Version mismatch, please run `build:update`')
 
